@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+.weatherBg
+{
+  background:url("https://home.openweathermap.org/assets/history_banner-3e72b47aa91f9e874b5e56197a88feacafd37ad4eaccfa3974302b37004ec7f5.png");
+  height:50vh;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content:center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  color:white;
+  font-weight:700;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wetherResultBox{
+  margin:auto;
+  width:300px;
+  height:300px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weatherIcon
+{
+  margin-top:2rem;
+  width:100px;
+  height:100px;
 }
-
-.App-link {
-  color: #61dafb;
+.weatherCity
+{
+  font-size:35px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weatherTemp {
+  font-size:55px;
+  font-weight:700px;
 }
